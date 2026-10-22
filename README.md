@@ -2,6 +2,8 @@
 
 > 把读到的，变成你的。
 
+**简体中文** | [English](README.en.md)
+
 一个面向中文英语学习者的 Chrome / Edge 扩展。在网页上选中英文，一次点击即可收藏、翻译并进入复习；之后可以用自己的词句生成阅读材料，或导出成中英对照 PDF。
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)
