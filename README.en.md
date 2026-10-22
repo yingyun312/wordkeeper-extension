@@ -11,6 +11,16 @@ A local-first Chrome / Edge extension for Chinese learners of English. Select En
 ![Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?logo=googlechrome&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+## Screenshots
+
+| Library | Review |
+| --- | --- |
+| ![Library](docs/screenshots/01-library.png) | ![Review](docs/screenshots/02-review.png) |
+
+| Reading practice | Export |
+| --- | --- |
+| ![Reading practice](docs/screenshots/03-reading.png) | ![Export](docs/screenshots/04-export.png) |
+
 ## Why
 
 Reading English often means understanding a good expression once and then forgetting it. Screenshots and highlights collect information, but they do not create review or reuse.

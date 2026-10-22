@@ -15,17 +15,13 @@
 
 ## 界面预览
 
-> 将截图放入 `docs/screenshots/` 后，取消下面注释即可展示。
-
-<!--
 | 学习库 | 今日复习 |
 | --- | --- |
-| ![学习库](docs/screenshots/01-library.png) | ![复习](docs/screenshots/02-review.png) |
+| ![学习库](docs/screenshots/01-library.png) | ![今日复习](docs/screenshots/02-review.png) |
 
-| AI 阅读 | 导出资料 |
+| 阅读训练 | 导出资料 |
 | --- | --- |
-| ![阅读](docs/screenshots/03-reading.png) | ![导出](docs/screenshots/04-export.png) |
--->
+| ![阅读训练](docs/screenshots/03-reading.png) | ![导出资料](docs/screenshots/04-export.png) |
 
 ## 为什么做这个
 
