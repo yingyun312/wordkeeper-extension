@@ -231,8 +231,6 @@ npm run build    # 类型检查并构建 dist
 npm test         # 运行全部测试
 ```
 
-本项目在 AI 辅助下完成。产品设计、需求取舍、交互流程、功能验证和最终代码审查由项目作者负责；发布或展示时建议保留这段说明。
-
 ## 参与贡献
 
 欢迎提交 Issue 或 PR。开发、测试和提交规范见 [CONTRIBUTING.md](CONTRIBUTING.md)。

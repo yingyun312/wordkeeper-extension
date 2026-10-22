@@ -189,10 +189,6 @@ See [PRIVACY.md](PRIVACY.md).
 - [ ] Optional cloud sync
 - [ ] Demo GIF and more screenshots
 
-## AI assistance
-
-This project was built with AI-assisted coding. Product design, requirements, interaction decisions, testing, and final code review were handled by the project author.
-
 ## License
 
 [MIT](LICENSE) © 2026 WordKeeper Contributors
