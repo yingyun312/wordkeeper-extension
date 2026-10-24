@@ -183,11 +183,11 @@ describe('App DOM UI unit tests', () => {
   it('connects HTML download and print/PDF entry points to document generation', async () => {
     await click(button('导出资料'));
     await click(button('下载 HTML'));
-    expect(exports.buildDocument).toHaveBeenCalledWith(state.entries, [], {mode: 'bilingual', translations: true, answers: true, sources: true, englishDefinitions: true, context: true, notes: true});
+    expect(exports.buildDocument).toHaveBeenCalledWith(state.entries, [], {mode: 'bilingual', translations: true, answers: true, sources: true, englishDefinition: true, context: true, notes: true});
     expect(exports.downloadFile).toHaveBeenCalledWith('拾语学习资料.html', expect.stringContaining('resilient'), 'text/html;charset=utf-8');
     await fill(field('资料类型'), 'worksheet');
     await click(button('打印 / 保存为 PDF'));
-    expect(exports.buildDocument).toHaveBeenLastCalledWith(state.entries, [], {mode: 'worksheet', translations: true, answers: true, sources: true, englishDefinitions: true, context: true, notes: true});
+    expect(exports.buildDocument).toHaveBeenLastCalledWith(state.entries, [], {mode: 'worksheet', translations: true, answers: true, sources: true, englishDefinition: true, context: true, notes: true});
     expect(exports.openPrintDocument).toHaveBeenCalledWith(expect.stringContaining('resilient'));
   });
 
@@ -197,7 +197,7 @@ describe('App DOM UI unit tests', () => {
     await click(field('包含例句／上下文'));
     await click(field('包含个人笔记'));
     await click(button('下载 HTML'));
-    expect(exports.buildDocument).toHaveBeenCalledWith(state.entries, [], {mode: 'bilingual', translations: true, answers: true, sources: true, englishDefinitions: false, context: false, notes: false});
+    expect(exports.buildDocument).toHaveBeenCalledWith(state.entries, [], {mode: 'bilingual', translations: true, answers: true, sources: true, englishDefinition: false, context: false, notes: false});
   });
 
   it('renders the layered review card and keeps rating actions usable with long answers', async () => {

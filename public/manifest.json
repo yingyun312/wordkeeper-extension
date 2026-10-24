@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "拾语 · WordKeeper",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "从阅读中拾起词句，自动释义、音标、分类与复习。",
   "permissions": ["storage", "contextMenus", "activeTab", "scripting"],
   "host_permissions": ["http://*/*", "https://*/*"],
